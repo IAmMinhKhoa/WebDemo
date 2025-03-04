@@ -27,3 +27,25 @@ body, html {
     text-transform: uppercase; /* Chữ hoa để cảm giác sang trọng hơn */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Đổ bóng cho chữ */
 }
+
+/* Thiết lập cho gallery ảnh */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Khoảng cách giữa các ảnh */
+    margin-top: 30px;
+}
+
+/* Cài đặt cho từng ảnh */
+.image {
+    width: 250px; /* Kích thước cố định của ảnh */
+    height: auto;
+    border-radius: 8px; /* Viền bo tròn cho ảnh */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); /* Đổ bóng nhẹ cho ảnh */
+    transition: transform 0.3s ease-in-out; /* Hiệu ứng thu phóng khi hover */
+}
+
+/* Hiệu ứng khi hover lên ảnh */
+.image:hover {
+    transform: scale(1.1); /* Phóng to ảnh khi hover */
+}
