@@ -1,0 +1,17 @@
+/* Thiết lập cho body */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Chỉnh sửa container */
+.container p {
+    font-size: 36px;
+}
